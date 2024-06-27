@@ -19,6 +19,7 @@ int main() {
     *pointer = x;
 	square(pointer);
 	printf("%d\n", *pointer);
+	free(pointer);
 	return 0;
 }
 
