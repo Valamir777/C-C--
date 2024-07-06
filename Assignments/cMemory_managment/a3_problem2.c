@@ -20,7 +20,7 @@ int main(){
 		*(a1+i)=100;
 		
 		//Print each element out (to make sure things look right)
-		printf("%d ", *(a1+1));
+		printf("%d ", *(a1+i));
 	}
 
 	//User specifies the new array size, stored in variable n2.
@@ -34,15 +34,14 @@ int main(){
 	//If the new array is a larger size, set all new members to 0. Reason: dont want to use uninitialized variables.
     if (n2 > n1)
     {
-        for (int j =n1 i = 0; i < count; i++)
+        for (int i = n1; i < n2; i++)
         {
-            /* code */
+            *(a1+i) = 0;
+			printf("%d ", *(a1+i));
         }
         
     }
     
-    
-	
 
 
 	for(i=0; i<n2;i++){
