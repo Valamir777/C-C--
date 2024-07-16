@@ -7,5 +7,6 @@
         "stddef.h": "c",
         "ostream": "cpp",
         "iostream": "cpp"
-    }
+    },
+    "git.ignoreLimitWarning": true
 }
