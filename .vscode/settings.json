@@ -4,6 +4,8 @@
         "stdio.h": "c",
         "stdlib.h": "c",
         "bintree.h": "c",
-        "stddef.h": "c"
+        "stddef.h": "c",
+        "ostream": "cpp",
+        "iostream": "cpp"
     }
 }
