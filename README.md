@@ -13,7 +13,7 @@ Software
 
 Athena command-line
 Compiling: gcc, g++
-Debugging: valgrind
-Editing: vim,
-OS: Linux
-IDE: Eclipse
+Debugging: valgrind, GDB
+Editing: VIM, YACS
+OS: Microsoft OS 8, Linux Debian 12
+IDE: Studio Visual Code, Code::Blocks
